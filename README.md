@@ -12,18 +12,29 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=wongrave&show_icons=true&theme=gotham&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wongrave&layout=compact&langs_count=7&theme=gotham"/>
 </div>
+  
+```java
+public class Wongrave extends Developer {
+  
+  private String name;
+  private Integer age;
+  private String workingPlace;
+  private Integer motivation;
+  
+  public Wongrave(Integer cupsOfCoffee) {
+    this.name = "Lauro Tomiatti";
+    this.age = 27;
+    this.workingPlace = "ParaDecision, UNIP";
+    this.motivation = cupsOfCoffee;
+  }
 
-<!--
-**Wongrave/wongrave** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  public String getLanguages(){
+    return "Java, JavaScript, TypeScript, Python";
+  }
+  
+  public String getOtherKnowledges(){
+    return "Spring, Maven, Lombok, Hibernate, RabbitMQ, OAuth, JUnit, JWT, Bootstrap, MySQL, Angular, React, Docker, SOLID, Flask, Node.js";
+  }
+  
+}
+```
